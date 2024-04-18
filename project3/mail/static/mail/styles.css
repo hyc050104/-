@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+.emails {
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emails:hover {
+    background-color: #6589e4 !important;
+}
+
+.sender {
+    font-weight: bold;
+    /* 设置发件人字体为粗体 */
+    margin-right: 10px;
+    /* 添加一点右边距 */
+}
+
+.subject {
+    font-weight: normal;
+    /* 设置主题字体为正常 */
+    margin-right: 5px;
+    /* 调整主题与发件人的距离 */
+    color: #333;
+    /* 将主题颜色调暗 */
+}
+
+.timestamp {
+    color: #666;
+    /* 设置时间颜色为淡灰色 */
+}
+
+.emails>* {
+    margin: 0;
+    /* 清除默认的段落元素的上下外边距 */
+}
